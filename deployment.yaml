@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: pavanmohan/promote-release:8266b26b1578f5e66b8283b6bae061c203638d96
+          image: pavanmohan/promote-release:38563e2e247ac1715798469943bf8594db4a3a898266b26b1578f5e66b8283b6bae061c203638d96
           imagePullPolicy: Always
           ports:
             - containerPort: 80

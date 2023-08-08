@@ -17,6 +17,6 @@ spec:
           image: pavanmohan/promote-release:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 3000
       imagePullSecrets:
         - name: regcred

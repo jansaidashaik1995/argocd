@@ -3,11 +3,10 @@ kind: Service
 metadata:
   name: react-app
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: react-app
   ports:
     - port: 80
       protocol: TCP
-      targetPort: 80
-      nodePort: 31000
+      targetPort: 3000

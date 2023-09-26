@@ -14,9 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: pavanmohan/promote-release:5ea513c35be2c4eb7a37af708029dd55d6719be6
+          image: pavanmohan/monorepo:tagname
           imagePullPolicy: Always
           ports:
             - containerPort: 80
-      imagePullSecrets:
-        - name: regcred

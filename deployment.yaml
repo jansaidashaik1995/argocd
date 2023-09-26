@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: pavanmohan/monorepo:tagname
+          image: pavanmohan/monorepo:8ef81536e3fc9aca7eb43a68f981eb2c5201f298
           imagePullPolicy: Always
           ports:
             - containerPort: 80
